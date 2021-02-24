@@ -1,5 +1,7 @@
 # Some common imports
-import pandas, datetime, calendar, os, psutil
+import numpy as np
+import xarray as xr
+import datetime, calendar
 
 # Function to digest SDs and VDATA from HDF files and return xarray datasets.
 # Attempts to be smart about missing data and attributes and such
